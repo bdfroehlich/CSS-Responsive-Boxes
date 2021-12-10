@@ -24,6 +24,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: auto;
+  margin-top: 1em;
   width: 90%;
   min-height: 30vh;
 }
@@ -33,17 +34,18 @@ body {
   background-color: darkorange;
   min-height: 15vh;
   margin: auto;
-  min-width: 90%;
   margin-top: 1em;
   margin-bottom: 1em;
+  min-width: 90%;
 }
 
 .b {
   background-color: darkorchid;
+  margin: 1em;
+  flex-grow: 5;
   margin: auto;
   min-width: 90%;
   min-height: 40vh;
-  margin-bottom: 1em;
 }
 
 .c, .d, .e {
@@ -53,7 +55,7 @@ body {
 
 .f {
   background-color: darkseagreen;
-  min-height: 20vh;
+  min-height: 15vh;
   margin: auto;
   width: 90%;
   margin-top: 1em;
