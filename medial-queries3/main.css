@@ -40,8 +40,8 @@ body {
  .b, .c, .d, .e, .f, .g {
     background-color: darkmagenta;
     flex-grow: 1;
-    width: 32%;
-    min-height: 49%;
+    min-width: 32%;
+    /* min-height: 49%; */
   }
   
   .h {
